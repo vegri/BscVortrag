@@ -1,0 +1,62 @@
+%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'uhv-apparatur.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{323.41472168bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.52940874)%
+    \put(0,0){\includegraphics[width=\unitlength]{uhv-apparatur.pdf}}%
+    \put(0.22316181,0.50929234){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Hauptkammer}}}%
+    \put(0.43961931,0.4248452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{STM-Kammer}}}%
+    \put(0.68161823,0.44810518){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.10535818\unitlength}\centering Molekül-kammer\end{minipage}}}%
+    \put(-0.00304361,0.47028667){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17091501\unitlength}\centering Massen-spektrometer\end{minipage}}}%
+    \put(0.56434722,0.51136689){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Druckmessgerät}}}%
+    \put(0.00728936,0.21026545){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{LEED}}}%
+    \put(0.80710597,0.12302235){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17538082\unitlength}\centering Anschluss für Pumpstand\end{minipage}}}%
+    \put(0.83972211,0.16346128){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Transferstäbe}}}%
+  \end{picture}%
+\endgroup%

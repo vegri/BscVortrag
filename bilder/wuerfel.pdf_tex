@@ -1,0 +1,66 @@
+%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'wuerfel.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{165.48845215bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.33449496)%
+    \put(0,0){\includegraphics[width=\unitlength]{wuerfel.pdf}}%
+    \put(0.10022834,1.21020033){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Würfel}}}%
+    \put(0.07633024,0.98901001){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Konus}}}%
+    \put(0.92164464,0.99944978){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Pumpe}}}%
+    \put(0.63824213,0.410986){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{2. Verbindungsstück}}}%
+    \put(0.33564102,0.02992184){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Substrat in Molekülkammer}}}%
+    \put(0.77080536,0.24072166){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Adapterflansch}}}%
+    \put(0.84498046,0.61457809){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Ventil 1}}}%
+    \put(0.8269032,0.76494867){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Ventil 2}}}%
+    \put(0.67212259,0.99682704){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{T-Stück}}}%
+    \put(0.80336921,0.82946678){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Schlauch}}}%
+    \put(-0.0081763,0.8054115){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.22684236\unitlength}\centering 1. Verbindungs-stück\end{minipage}}}%
+    \put(0.35630295,1.34101314){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15351958\unitlength}\centering Ventil mit \\ Lösung\end{minipage}}}%
+  \end{picture}%
+\endgroup%
