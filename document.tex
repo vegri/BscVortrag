@@ -14,6 +14,7 @@
 \usepackage{svg}
 \usepackage{pdfpages}
 \usepackage{placeins}
+\usepackage[decimalsymbol=comma]{siunitx}
 
 
 % font definitions, try \usepackage{ae} instead of the following
@@ -273,7 +274,7 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \begin{frame}
 \frametitle{Wozu das Ganze?}
 %\framesubtitle{Subtitles are optional}
-\begin{itemize}
+\begin{itemize}\setlength{\itemsep}{+15pt}
   \item Funktioniert über ein Druckgefälle innerhalb der Apparatur
   \item Vorteil: kein thermisches Verdampfen $\Rightarrow$ keine Verformung der Moleküle
 \end{itemize}
@@ -293,9 +294,22 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \end{figure}
 \end{frame}
 
+\begin{frame}
+\frametitle{Aufbau der Apparatur (1)}
+%\framesubtitle{Subtitles are optional}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item Test an HV-Apparatur inkl. Vorpumpe $\&$ Hauptpumpe, Druckmessgerät (Vorteil kleineres
+  Volumen)
+  \item Substrat: Glasträger
+  \item gelöste Moleküle: \\
+  Kupfer-2-Phthalocyanin (CuPc) in Dimethylsulfoxid bzw. Dimethylformamid\\
+  Tetracyanoquinodimethan (TCNQ) in Tetrahydrofuran
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}
-\frametitle{Aufbau der Apparatur}
+\frametitle{Aufbau der Apparatur (2)}
 \begin{figure}[H]
 \centering
 %\sffamily
@@ -310,16 +324,43 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \subsection[Ergebnisse]{Test der Apparatur}
 
 \begin{frame}
-\frametitle{}
+\frametitle{Erste Tests}
 %\framesubtitle{Subtitles are optional}
-\begin{itemize}
-  \item Test an HV-Apparatur (kleineres Volumen)
-  \item gelöste Moleküle: \\
-  Kupfer-2-Phthalocyanin (CuPc) in Dimethylsulfoxid bzw. Dimethylformamid\\
-  Tetracyanoquinodimethan (TCNQ) in Tetrahydrofuran
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item Getestete Zeiten: \\
+  \SI{1}{ms} bis \SI{50}{ms} offenes Ventil ("`On-Time"'), dazwischen \SI{7}{ms} bis \SI{4}{s} geschlossenes
+  Ventil ("`Off-Time"')\\ 
+  gesamte Zyklusdauer bis 15 Minuten
+  \item Druckanstieg in der Hauptkammer, aber nichts zu sehen auf Glasträger!
+  \item Nach einigen Umbauten: Sichtbare farbige Spritzer auf Glasträger erst ohne Pumpe am Würfel
 \end{itemize}
 \end{frame}
 
+
+\begin{frame}
+\frametitle{Beobachtungen zwischendrin}
+%\framesubtitle{Subtitles are optional}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item Ausgangsdruck in Hauptkammer \SI{e-5}{mbar} $\Rightarrow$ Druckanstieg bei Öffnen des
+  Ventils auf \SI{e-3}{mbar}\\
+  Druck in Würfel nur \SI{e-2}{mbar}
+ % einigermaßen regulierbar über kurze On-, lange Off-Zeiten
+  \item Öffnungen von Ventil $\&$ Konus anfällig für Verstopfungen $\Rightarrow$ kein Druckanstieg
+  mehr in Hauptkammer
+  \item Turbopumpe stark am Limit:\\
+  Austausch der internen Vorpumpe durch externe Membranpumpe
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Test mit Quarzwaage}
+%\framesubtitle{Subtitles are optional}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item 
+  \item 
+  \item 
+\end{itemize}
+\end{frame}
 
 %___________________________________________________________________________________________________________________________________________
 %___________________________________________________________________________________________________________________________________________
