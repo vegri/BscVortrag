@@ -224,37 +224,31 @@ Winkel &	min	 &	max & Mittel \\
 	\begin{minipage}[b]{0.3\textwidth} 
 		\includegraphics[width=\textwidth]{bilder/unbedampft_E207}
 		\caption*{\textit{Re-Oberfläche}}
-		\label{0ML} 
 	\end{minipage}
 	\hfill
 	\begin{minipage}[b]{0.3\textwidth}
 		\includegraphics[width=\textwidth]{bilder/0_5ML_E208}
-		\caption*{\textit{1/2 Monolage Au}}
-		\label{1/2ML} 
+		\caption*{\textit{1/2 Monolage Au}} 
 	\end{minipage}
 	\hfill
 	\begin{minipage}[b]{0.3\textwidth} 
 		\includegraphics[width=\textwidth]{bilder/1ML_E207}
-		\caption*{\textit{1 Monolage Au}}
-		\label{1ML} 
+		\caption*{\textit{1 Monolage Au}} 
 	\end{minipage}
 	
 	\begin{minipage}[b]{0.3\textwidth}
 		\includegraphics[width=\textwidth]{bilder/6ML_E207}
 		\caption*{\textit{6 Monolagen Au}}
-		\label{6ML} 
 	\end{minipage}
 	\hfill
 	\begin{minipage}[b]{0.3\textwidth} 
 		\includegraphics[width=\textwidth]{bilder/10ML_E207}
 		\caption*{\textit{10 Monolagen Au}}
-		\label{10ML} 
 	\end{minipage}
 	\hfill
 	\begin{minipage}[b]{0.3\textwidth}
 		\includegraphics[width=\textwidth]{bilder/30ML_E208}
 		\caption*{\textit{30 Monolagen Au}}
-		\label{30ML} 
 	\end{minipage}
 % 	\caption*{LEED-Aufnahmen vom Re-Kristall ohne
 % 	und mit verschiedenen Bedeckungsgraden von Gold bei einer Elektronenenergie von \SI{208}{eV}.}
@@ -263,7 +257,80 @@ Winkel &	min	 &	max & Mittel \\
 \end{frame}
 
 \begin{frame}
-\frametitle{LEED des Re-Kristalls}
+\frametitle{STM des Re-Kristalls}
+\begin{figure}[htbp]
+	\vspace{-0.5cm}
+	\begin{minipage}[b]{0.45\textwidth} 
+		\sffamily
+		\includesvg[svgpath=bilder/]{rekristall1}
+	\end{minipage}
+	\hspace{0.5cm}
+	\begin{minipage}[b]{0.45\textwidth}
+		\sffamily
+		\includesvg[svgpath=bilder/]{rekristall2}
+	\end{minipage}
+	\caption{\textit{STM-Bilder der Rheniumoberfläche. a) Zu erkennen sind regelmäßig angeordnete
+	Terrassen mit etwa 35nm Breite. b) In der Mitte der Probe sind auf dem Kristall Verunreinigungen zu
+	sehen (helle Streifen).}}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{STM halbe Monolage Au}
+\begin{figure}
+\begin{minipage}[b]{0.45\textwidth} 
+		\includegraphics{bilder/profilhalbeMLkleiner}
+	\end{minipage}
+	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics{bilder/halbeMLkleiner}
+	\end{minipage}
+% 	\caption{\textit{STM-Bilder von 0,5 Monolagen Gold auf Re. Es bilden sich Inseln aus
+% 	mehreren Goldatomen von einer Größe von etwa \SI{7}{nm} Länge, die die Re-Oberfläche ungeordnet bedecken.}}
+	\vfill
+	\centering
+	\vspace{0.3cm}\hspace{-1.5cm} 
+	\includegraphics[height=3cm]{bilder/ProfilhalbeML.pdf}
+% 	\caption{\textit{Höhenprofil aus Abb. \ref{halbeML2stm}a). Die Höhe der Goldinseln liegt bei etwa
+% 	\SI{0,2}{nm}.}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{STM mehrere Monolagen Au}
+\begin{figure}[H]
+	\begin{minipage}[b]{0.45\textwidth} 
+		\includesvg[svgpath=bilder/]{20ML}
+	\end{minipage}
+	\hspace{0.5cm} 
+	\begin{minipage}[b]{0.45\textwidth}
+		\includesvg[svgpath=bilder/]{30ML}
+	\end{minipage}
+	\caption{\textit{STM-Bilder von a) 20 Monolagen Gold, b) 30 Monolagen Gold. Bei beiden
+	Schichtdicken ist ein Inselwachstum zu beobachten mit einem Inseldurchmesser von etwa \SI{35}{nm}.}}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{STM 20 Monolagen}
+\vspace{-0.3cm}
+\begin{figure}[H]
+	\begin{minipage}[b]{0.45\textwidth} 
+		\includegraphics{bilder/20ML_2kleiner}
+		\caption*{20 Monolagen ungetempert}
+	\end{minipage}
+	\hspace{0.5cm} 
+	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics{bilder/20MLget2kleiner}
+		\caption*{20 Monolagen getempert bei \SI{2,0}{A}}
+	\end{minipage}
+% 	\caption{\textit{a) 20 Monolagen ungetempert, b) 20 Monolagen, 10 Minuten mit einem Filamentstrom
+% 	von \SI{2,0}{A} getempert.
+% 	Beim Tempern glättet sich die Oberfläche, es bilden sich größere, flache Inseln.}}
+	\centering
+		\includegraphics[height=3cm]{bilder/profiles20MLget}
+% 	\caption{\textit{Höhenprofil aus Abb. \ref{getVergleich}b). Die Höhen der Oberflächen der Inseln
+% 	schwanken im Bereich von etwa \SI{0,05}{nm}, somit sind die Inseln sehr eben.}}
+\end{figure}
 \end{frame}
 
 \begin{frame}
