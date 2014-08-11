@@ -7,6 +7,7 @@
 \setbeamercovered{transparent}
 }
 \usepackage{amsmath,amsfonts,amssymb}
+\usepackage{german}
 \usepackage[center]{caption}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
@@ -61,13 +62,21 @@ Johannes Gutenberg-Universität Mainz
 \end{frame}
 
 
-
+\begin{frame}
+\frametitle{Warum überhaupt?}
+%\framesubtitle{Subtitles are optional}
+\begin{itemize}
+  \item
+  \item
+\end{itemize}
+\end{frame}
 
 
 
 %___________________________________________________________________________________________________________________________________________
 %___________________________________________________________________________________________________________________________________________
 %___________________________________________________________________________________________________________________________________________
+
 
 
 \section{Wachstum von Au auf Re(0001)}
@@ -80,7 +89,7 @@ Johannes Gutenberg-Universität Mainz
 \frametitle{}
 %\framesubtitle{Subtitles are optional}
 \begin{center}
-\textcolor{darkred}{\huge{1. Teil:\\ \vspace{0.65cm}
+\textcolor{darkred}{\huge{1. Teil:\\ \vspace{0.5cm}
 Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \end{center}
 \end{frame}
@@ -90,15 +99,6 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 
 
 \subsection[Motivation]{Motivation}
-
-\begin{frame}
-\frametitle{Warum überhaupt?}
-%\framesubtitle{Subtitles are optional}
-\begin{itemize}
-  \item
-  \item
-\end{itemize}
-\end{frame}
 
 \begin{frame}
 \frametitle{Warum Gold? Warum Rhenium?}
@@ -116,13 +116,49 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \subsection[Grundlagen]{Grundlagen: Rastertunnelmikroskopie und LEED}
 
 \begin{frame}
-\frametitle{LEED}
-%\framesubtitle{Subtitles are optional}
-\begin{itemize}
-  \item
-  \item
-\end{itemize}
+\frametitle{LEED (Low Energy Electron Diffraction)}
+\framesubtitle{Beugung niederenergetischer Elektronen an Oberflächen}
+\begin{figure}[htbp]
+	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[]{bilder/leedkleiner}
+	\end{minipage}
+	\hspace{0.4cm}
+	\begin{minipage}[b]{0.45\textwidth}
+		\begin{itemize}
+ 		\item Elektronenstrahl durch Glühemission mit \SI{20}{eV} bis \SI{400}{eV}
+ 	 	\item niedrige Eindringtiefe der Elektronen
+ 	 	\item Fokussierung und "`Sortierung"' durch Gitter vor Schirm
+ 	 	\item betrachte elastisch rückgestreute Elektronen auf fluoeszierendem Schirm
+		\end{itemize}
+	\end{minipage}
+\end{figure}
 \end{frame}
+
+\begin{frame}
+\frametitle{LEED (Low Energy Electron Diffraction)}
+%\framesubtitle{Subtitles are optional}
+\begin{figure}[H]
+\begin{minipage}[b]{0.45\textwidth}
+		\begin{itemize}
+ 		\item Betrachte elastische Streuung an oberster Schicht mit $k=k'$
+ 	 	\item konstruktive Interferenz allgemein wenn $\vec{k}-\vec{k'}=\Delta \vec{k}=\vec{G}$~~~und
+ 	 	$\vec{a}_i\cdot \Delta \vec{k}=2\pi h_i,~~~~~~~i=1, 2, 3$
+ 	 	\item bei Oberflächenstreuung: $\Delta\vec{k}_{||}=\vec{k}_{||}-\vec{k'}_{||}\overset{!}{=} \vec{G}$
+ 	 	\item in Ewald-Konstruktion werden Punkten $(h_1, h_2)$ Linien $h_3$ zugeordnet
+ 	 	\item Schnittstellen Linien-Kugel: Interferenz!
+		\end{itemize}
+	\end{minipage}
+	\hspace{0.4cm}
+	\begin{minipage}[b]{0.45\textwidth}
+		\includesvg[svgpath=bilder/]{ewald}
+	\end{minipage}
+\end{figure}
+
+
+
+\end{frame}
+
+
 
 
 \begin{frame}
@@ -189,6 +225,7 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 
 \begin{frame}
 \frametitle{LEED des Re-Kristalls}
+\vspace{-0.2cm}
 \begin{figure}[H]
 \begin{minipage}[b]{0.45\textwidth}
 \includesvg[svgpath=bilder/]{unbedampft_E207-winkel}
