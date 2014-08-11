@@ -83,7 +83,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/bscvortrag/bilder/./30ML.jpg"
+     sodipodi:absref="./30ML.jpg"
      xlink:href="./30ML.jpg"
      y="12.462498"
      x="0"
@@ -194,7 +194,7 @@
        x="153.10623"
        y="7.2937503">z [nm]</tspan></text>
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/bscvortrag/bilder/./skala.jpg"
+     sodipodi:absref="./skala.jpg"
      xlink:href="./skala.jpg"
      y="13.980259"
      x="154.19553"

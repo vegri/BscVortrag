@@ -83,7 +83,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/bscvortrag/bilder/./rekristall1.jpg"
+     sodipodi:absref="./rekristall1.jpg"
      xlink:href="./rekristall1.jpg"
      y="12.09375"
      x="0"
@@ -125,7 +125,7 @@
          sodipodi:role="line">100 nm</tspan></text>
   </g>
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/bscvortrag/bilder/./skala.jpg"
+     sodipodi:absref="./skala.jpg"
      xlink:href="./skala.jpg"
      y="13.611511"
      x="154.20178"

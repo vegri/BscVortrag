@@ -187,8 +187,8 @@
      id="layer1"
      transform="translate(-400.5387,-372.95934)">
     <image
-       sodipodi:absref="/home/kunzejo/workspace/BSc/testsb/../fotos/IMG_1106.jpg"
-       xlink:href="/home/verena/Desktop/workspace/BSc/testsb/../fotos/IMG_1106.jpg"
+       sodipodi:absref="./IMG_1106.jpg"
+       xlink:href="./IMG_1106.jpg"
        width="147.78888"
        height="265.05493"
        id="image3034"

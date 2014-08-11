@@ -84,7 +84,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/bscvortrag/bilder/./halbeML.jpg"
+     sodipodi:absref="./halbeML.jpg"
      xlink:href="./halbeML.jpg"
      width="133.47562"
      height="133.47562"
@@ -92,7 +92,7 @@
      x="0"
      y="11.410225" />
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/bscvortrag/bilder/./skala.jpg"
+     sodipodi:absref="./skala.jpg"
      xlink:href="./skala.jpg"
      width="5.778626"
      height="131.06973"

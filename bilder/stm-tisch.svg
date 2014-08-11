@@ -225,16 +225,16 @@
      id="layer1"
      transform="translate(-140.29784,-442.96381)">
     <image
-       sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg"
-       xlink:href="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/kamera2.jpg"
+       sodipodi:absref="./kamera2.jpg"
+       xlink:href="./kamera2.jpg"
        width="202.2547"
        height="161.80377"
        id="image3034"
        x="140.29784"
        y="442.96982" />
     <image
-       sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg"
-       xlink:href="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1063.jpg"
+       sodipodi:absref="./IMG_1063.jpg"
+       xlink:href="./IMG_1063.jpg"
        y="442.96381"
        x="353.97421"
        id="image3056"

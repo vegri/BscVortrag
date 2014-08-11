@@ -127,8 +127,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <image
-     sodipodi:absref="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1085.jpg"
-     xlink:href="/home/verena/Desktop/workspace/BSc/versuchsaufbau/../fotos/IMG_1085.jpg"
+     sodipodi:absref="./IMG_1085.jpg"
+     xlink:href="./IMG_1085.jpg"
      width="357.48468"
      height="210.61739"
      id="image10"
