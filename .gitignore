@@ -1,5 +1,6 @@
 .project
 .texlipse
 *.dvi
-*.pdf
+*.pdf_tex
 tmp/
+vortrag.pdf
