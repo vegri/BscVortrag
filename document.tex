@@ -65,8 +65,8 @@ Johannes Gutenberg-Universität Mainz
 \begin{frame}
 \frametitle{Warum überhaupt?}
 %\framesubtitle{Subtitles are optional}
-\begin{itemize}
-  \item
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item   
   \item
 \end{itemize}
 \end{frame}
@@ -103,17 +103,22 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \begin{frame}
 \frametitle{Warum Gold? Warum Rhenium?}
 %\framesubtitle{Subtitles are optional}
-\begin{itemize}
-  \item
-  \item
-\end{itemize}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+ 	\item Gold inert, d.h. wenig Reaktion mit Restgasmolekülen im Ultrahochvakuum
+ 	\item gute Adsorption organischer Moleküle auf Goldoberflächen
+ \end{itemize}
+ \vspace{1cm}
+ \begin{itemize}\setlength{\itemsep}{+15pt}
+  	\item Rhenium: hoher Schmelzpunkt ($3186^\circ$C)
+  	\item bleibt nach Verarbeitung (Schweißen, Schmieden, \ldots) duktil
+ \end{itemize}
 \end{frame}
 
 %___________________________________________________________________________________________________________________________________________
 %___________________________________________________________________________________________________________________________________________
 
 
-\subsection[Grundlagen]{Grundlagen: Rastertunnelmikroskopie und LEED}
+\subsection[Grundlagen]{Grundlagen: STM und LEED}
 
 \begin{frame}
 \frametitle{LEED (Low Energy Electron Diffraction)}
@@ -136,12 +141,11 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 
 \begin{frame}
 \frametitle{LEED (Low Energy Electron Diffraction)}
-%\framesubtitle{Subtitles are optional}
 \begin{figure}[H]
 \begin{minipage}[b]{0.45\textwidth}
 		\begin{itemize}
  		\item Betrachte elastische Streuung an oberster Schicht mit $k=k'$
- 	 	\item konstruktive Interferenz allgemein wenn $\vec{k}-\vec{k'}=\Delta \vec{k}=\vec{G}$~~~und
+ 	 	\item konstruktive Interferenz allgemein, wenn $\vec{k}-\vec{k'}=\Delta \vec{k}=\vec{G}$~~~und
  	 	$\vec{a}_i\cdot \Delta \vec{k}=2\pi h_i,~~~~~~~i=1, 2, 3$
  	 	\item bei Oberflächenstreuung: $\Delta\vec{k}_{||}=\vec{k}_{||}-\vec{k'}_{||}\overset{!}{=} \vec{G}$
  	 	\item in Ewald-Konstruktion werden Punkten $(h_1, h_2)$ Linien $h_3$ zugeordnet
@@ -153,21 +157,58 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 		\includesvg[svgpath=bilder/]{ewald}
 	\end{minipage}
 \end{figure}
-
-
-
 \end{frame}
 
 
 
 
 \begin{frame}
-\frametitle{Rastertunnelmikroskopie}
-%\framesubtitle{Subtitles are optional}
-\begin{itemize}
-  \item
-  \item
+\frametitle{STM (Scanning Tunneling Microscope)}
+\framesubtitle{Rastertunnelmikroskopie}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item 3D Aufnahme von Oberflächen elektrisch leitender Festkörper
+  \item Annäherung leitender Spitze an Oberfläche bis auf wenige {\AA} $\Rightarrow$ mit angelegter
+  Spannung fließt messbarer Strom
+  \item Mechanismus beruht auf Tunneleffekt
+  \item Rastern der Oberfläche mit Spitze bei Messung des Stroms: topographisches Bild der
+  Oberfläche mit atomarer Auflösung
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{STM (Scanning Tunneling Microscope)}
+% \begin{figure}[H]
+% 	\begin{minipage}[b]{0.45\textwidth}
+% 		\vspace{-3cm}
+% 		\begin{itemize}\setlength{\itemsep}{+15pt}
+% 		  \item Berechnungen schwer durch i.A. unbekannte Wellenfunktion der Spitze
+% 		  \item Ausdruck für Strom nur durch Näherungen erreichbar
+% 		  \item $I\propto U \rho_{s}(E_F) \rho_P(\vec{r}_0, E)e^{-2\kappa d}$
+% 		\end{itemize}
+% 	\end{minipage}
+% 	\hspace{0.2cm}
+% 	\begin{minipage}[b]{0.45\textwidth}
+% 		\includesvg[svgpath=bilder/]{spitze}
+% 	\end{minipage}
+	 \begin{columns}
+\column{.45\textwidth}
+\begin{figure}[H]
+\begin{center}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+		  \item Berechnungen schwer durch i.A. unbekannte Wellenfunktion der Spitze
+		  \item Ausdruck für Strom nur durch Näherungen erreichbar
+		  \item $I\propto U \rho_{s}(E_F) \rho_P(\vec{r}_0, E)e^{-2\kappa d}$
+		\end{itemize}
+\end{center}
+\end{figure}
+
+   \column{.45\textwidth}
+\begin{figure}[H]
+\begin{center}
+\includesvg[svgpath=bilder/]{spitze}
+\end{center}
+\end{figure}
+\end{columns}
 \end{frame}
 
 %___________________________________________________________________________________________________________________________________________
@@ -177,10 +218,12 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 \subsection[Versuchsaufbau]{Versuchsaufbau}
 
 \begin{frame}
-\frametitle{}
-\begin{itemize}
-  \item
-  \item
+\frametitle{Versuchsaufbau}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item UHV-Apparatur mit \SI{e-10}{mbar}
+  \item Flashen, Tempern, Bedampfen der Probe mit Gold
+  \item Bestimmung der aufgedampften Menge über Schwingquarz
+  \item LEED, STM
 \end{itemize}
 \end{frame}
 
@@ -306,9 +349,7 @@ Winkel &	min	 &	max & Mittel \\
 		\sffamily
 		\includesvg[svgpath=bilder/]{rekristall2}
 	\end{minipage}
-	\caption{\textit{STM-Bilder der Rheniumoberfläche. a) Zu erkennen sind regelmäßig angeordnete
-	Terrassen mit etwa 35nm Breite. b) In der Mitte der Probe sind auf dem Kristall Verunreinigungen zu
-	sehen (helle Streifen).}}
+	\caption*{Regelmäßig angeordnete Terrassen, Breite etwa 35nm}
 	\end{figure}
 \end{frame}
 
@@ -338,12 +379,13 @@ Winkel &	min	 &	max & Mittel \\
 	\begin{minipage}[b]{0.45\textwidth} 
 		\includesvg[svgpath=bilder/]{20ML}
 	\end{minipage}
+% 	\caption*{20 Monolagen Gold}
 	\hspace{0.5cm} 
 	\begin{minipage}[b]{0.45\textwidth}
 		\includesvg[svgpath=bilder/]{30ML}
 	\end{minipage}
-	\caption{\textit{STM-Bilder von a) 20 Monolagen Gold, b) 30 Monolagen Gold. Bei beiden
-	Schichtdicken ist ein Inselwachstum zu beobachten mit einem Inseldurchmesser von etwa \SI{35}{nm}.}}
+% 	\caption*{30 Monolagen Gold}
+\caption*{20 Monolagen Gold~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~30 Monolagen Gold}
 \end{figure}
 \end{frame}
 

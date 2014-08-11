@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{214.275bp}%
+    \setlength{\unitlength}{151.775bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,12 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.81450092)%
+  \begin{picture}(1,0.81446825)%
     \put(0,0){\includegraphics[width=\unitlength]{spitze.pdf}}%
-    \put(0.51289231,0.41865537){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{R}}}%
-    \put(0.43575504,0.32565064){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_0$}}}%
-    \put(0.52547266,0.09247085){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{d}}}%
-    \put(0.26181537,0.00063444){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Oberfläche der Probe}}}%
-    \put(0.43074257,0.68533527){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spitze}}}%
+    \put(0.49693471,0.43459746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{R}}}%
+    \put(0.43577674,0.32562621){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r_0$}}}%
+    \put(0.52548762,0.09246391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{d}}}%
+    \put(0.26185001,0.00063438){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Oberfläche der Probe}}}%
+    \put(0.4307646,0.68528383){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spitze}}}%
   \end{picture}%
 \endgroup%
