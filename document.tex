@@ -28,7 +28,7 @@
 
 %\usepackage[T1]{fontenc}
 \title[Bachelorarbeit]{Untersuchung des Wachstums von Au auf Re(0001) mittels LEED und STM sowie
-Aufbau und Test einer Sprühdepositionsapparatur}
+Aufbau und Test einer Spraydepositionsapparatur}
 \author[V. Grimm]{Verena Grimm}
 
 
@@ -59,16 +59,6 @@ Johannes Gutenberg-Universität Mainz
 \frametitle{Inhalt}
 \tableofcontents
 % You might wish to add the option [pausesections]
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Warum überhaupt?}
-%\framesubtitle{Subtitles are optional}
-\begin{itemize}\setlength{\itemsep}{+15pt}
-  \item   
-  \item
-\end{itemize}
 \end{frame}
 
 
@@ -177,19 +167,6 @@ Untersuchung des Wachstums von Au \\ \vspace{0.5cm} auf Re(0001)}}
 
 \begin{frame}
 \frametitle{STM (Scanning Tunneling Microscope)}
-% \begin{figure}[H]
-% 	\begin{minipage}[b]{0.45\textwidth}
-% 		\vspace{-3cm}
-% 		\begin{itemize}\setlength{\itemsep}{+15pt}
-% 		  \item Berechnungen schwer durch i.A. unbekannte Wellenfunktion der Spitze
-% 		  \item Ausdruck für Strom nur durch Näherungen erreichbar
-% 		  \item $I\propto U \rho_{s}(E_F) \rho_P(\vec{r}_0, E)e^{-2\kappa d}$
-% 		\end{itemize}
-% 	\end{minipage}
-% 	\hspace{0.2cm}
-% 	\begin{minipage}[b]{0.45\textwidth}
-% 		\includesvg[svgpath=bilder/]{spitze}
-% 	\end{minipage}
 	 \begin{columns}
 \column{.45\textwidth}
 \begin{figure}[H]
@@ -465,6 +442,7 @@ Winkel &	min	 &	max & Mittel \\
 %\framesubtitle{Subtitles are optional}
 \begin{itemize}\setlength{\itemsep}{+15pt}
   \item Funktioniert über ein Druckgefälle innerhalb der Apparatur
+  \item Moleküle in Lösung werden auf Substrat "`gesprüht"'
   \item Vorteil: kein thermisches Verdampfen $\Rightarrow$ keine Verformung der Moleküle
 \end{itemize}
 \end{frame}
@@ -545,9 +523,14 @@ Winkel &	min	 &	max & Mittel \\
 \frametitle{Test mit Quarzwaage}
 %\framesubtitle{Subtitles are optional}
 \begin{itemize}\setlength{\itemsep}{+15pt}
-  \item 
-  \item 
-  \item 
+  \item Einbau von Quarzwaage statt Glasträger
+  \item Beobachtung der relativen Frequenzänderung mit digitaler Anzeige
+  \item On-Time von \SI{3}{ms}, Off-Time von \SI{500}{ms} (fast kein Anstieg des Drucks in der
+  Hauptkammer)
+  \item Anstieg von $30\pm1$ SKT in \SI{30}{min}
+  \item bei nachfolgender Reinigung: Abfall um $15\pm1$ SKT \\
+  $\Rightarrow$ Nettozunahme um $15\pm1$ SKT \\
+  $\Rightarrow$ Deposition der Moleküle auf Quarz
 \end{itemize}
 \end{frame}
 
@@ -557,26 +540,40 @@ Winkel &	min	 &	max & Mittel \\
 
 
 
-\section*{Summary}
+\section{Zusammenfassung}
 
 \begin{frame}
-\frametitle<presentation>{Summary}
+\frametitle<presentation>{Alles in allem\ldots}
 
-\begin{itemize}
-  \item The \alert{first main message} of your talk in one or two lines.
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item Gold auf Rhenium:\vspace{0.5cm}
+  		\begin{itemize}\setlength{\itemsep}{+7pt}
+  		  \item  Inselwachstum 
+  		  \item  20-30 Monolagen ausreichend
+  		  \item  durch Tempern Glättung der Oberfläche
+  		\end{itemize}
+  \item Spraydepositionsapparatur:\vspace{0.5cm}
+    	\begin{itemize}
+  		  \item  Scheint zu funktionieren!	  
+  		\end{itemize}
 \end{itemize}
+\end{frame}
 
+\section*{Ausblick}
 
-
-
+\begin{frame}
+\frametitle<presentation>{Was bleibt zu tun?}
 % The following outlook is optional.
-\vskip0pt plus.5fill
-\begin{itemize}
-  \item Outlook
-  \begin{itemize}
-    \item Something you haven't solved.
-    \item Something else you haven't solved.
-  \end{itemize}
+Weitere Tests!
+\vspace{0.5cm}
+\begin{itemize}\setlength{\itemsep}{+15pt}
+  \item Wieviele SKT sind wieviele Moleküle?
+  \item Verdampft das Lösungsmittel?
+  \item Wie stark muss man die Lösung verdünnen?
+  \item Was kann man am Druck verbessern?
+  \item Behalten die Moküle bei dieser Methode ihre Form?
+  \item \ldots
+  
 \end{itemize}
 \end{frame}
 
